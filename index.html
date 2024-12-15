@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="./app.js" defer></script>
+    <header>
+      <div class="logo">Restaurant Logo</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Menu</a></li>
+          <li><a href="index.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <div class="carousel">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDJz_iTTdBZEpr3aLwoFiU0AGAum2xFPH59g&s"
+            alt="Delicious Food 1"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkfl7OCHYDooMha1ylMLBGiBMFwMNcAWbJHQ&s"
+            alt="Delicious Food 2"
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC1F2QnBkOXkPcwdTBuLBNyLotG9EwdoDqYg&s"
+            alt="Delicious Food 3"
+          />
+        </div>
+        <h1 id="welcome">Welcome to Our Restaurant</h1>
+        <p>Experience the best cuisine, crafted with love and passion.</p>
+      </section>
+
+      <section id="menu">
+        <div class="menu-card">
+          <img
+            src="https://parade.com/.image/t_share/MTkwNTgwODMzNDk4MTEzMTQ5/pan-seared-cod-in-white-wine-tomato-basil-sauce.jpg"
+            alt="Meal 1"
+          />
+          <h3>Meal 1</h3>
+          <p>A delightful dish .</p>
+          <p>Price: 13JD</p>
+          <button>Choose</button>
+        </div>
+        <div class="menu-card">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmkKtI6-KkN2GA2xS2kqOOXuGD7LYBOOxktA&s"
+            alt="Meal 2"
+          />
+          <h3>Meal 2</h3>
+          <p>A delightful dish .</p>
+          <p>Price: 8JD</p>
+          <button>Choose</button>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <p>Phone: +123 456 7890</p>
+          <p>Email: Jehad@res.com</p>
+          <p>Address: 123 Food St, JO City</p>
+        </div>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <p>Contact: +123 456 7890 | Email: jehad@res.com</p>
+        <p>Location: 123 Food Street, JO City</p>
+        <p>&copy; 2024 Restaurant. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
